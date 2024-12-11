@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native when using the Dimensions API to get screen dimensions. The issue occurs primarily on Android, where `Dimensions.get('window')` or `Dimensions.get('screen')` might return `undefined` initially because the dimensions aren't immediately available. The solution provides a method for handling this asynchronous behavior.
